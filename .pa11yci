@@ -9,6 +9,10 @@
     }
   },
   "urls": [
-    "https://www.google.com"
+    {
+      "url": "http://pa11y.org",
+      "timeout": 30000,
+      "screenCapture": "pa111y.org.png"
+    }
   ]
 }

@@ -3,8 +3,12 @@ language: node_js
 node_js:
   - "8"
 
+cache:
+  directories:
+    - "node_modules"
+
 install: npm install
 
 # Build script
 script:
-  - npm run test-pa11y;
+  - npm run test-pa11y; npm run report;
