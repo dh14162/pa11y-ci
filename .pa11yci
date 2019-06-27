@@ -1,0 +1,14 @@
+{
+  "defaults": {
+    "timeout": 10000,
+    "page": {
+      "viewport": {
+        "width": 1280,
+        "height": 1024
+      }
+    }
+  },
+  "urls": [
+    "https://www.google.com"
+  ]
+}
