@@ -6,6 +6,7 @@
     "pa11y-ci": "^1.0"
   },
   "scripts": {
-    "test-pa11y": "./node_modules/.bin/pa11y-ci"
+    "test-pa11y": "./node_modules/.bin/pa11y-ci",
+    "test-aviva": "./node_modules/.bin/pa11y-ci --sitemap https://www.aviva.com/sitemap.xml"
   }
 }
