@@ -1,6 +1,11 @@
 {
+  "standard": "WCAG2AA",
+  "level": "error",
   "defaults": {
     "timeout": 10000,
+    "wait": 10000,
+    "ignore": [
+    ],
     "page": {
       "viewport": {
         "width": 1280,
@@ -9,10 +14,23 @@
     }
   },
   "urls": [
-    {
-      "url": "http://pa11y.org",
-      "timeout": 30000,
-      "screenCapture": "pa111y.org.png"
-    }
+    "https://www.aviva.com/",
+    "https://www.aviva.com/investors/",
+    "https://www.aviva.com/investors/annual-report-2018/",
+    "https://www.aviva.com/about-us/customer-stories/15-pound-million-fire-at-battersea-arts-centre/",
+    "https://www.aviva.com/countries/",
+    "https://www.aviva.com/careers/video-careers/video-careers/",
+    "https://www.aviva.com/investors/aviva-regulatory-announcements/",
+    "https://www.aviva.com/about-us/leader-profiles/angela-darlington/",
+    "https://www.aviva.com/about-us/our-markets/",
+    "https://www.aviva.com/investors/meeting-agm-2019/",
+    "https://www.aviva.com/about-us/audit-committee/",
+    "https://www.aviva.com/about-us/our-products/",
+    "https://www.aviva.com/glossary/",
+    "https://www.aviva.com/investors/regulatory-returns/",
+    "https://www.aviva.com/investors/shareholder-meetings-and-archive/",
+    "https://www.aviva.com/investors/shareholder-updates/",
+    "https://www.aviva.com/newsroom/multimedia/",
+    "https://www.aviva.com/newsroom/news-releases/2002/09/australia-australians-not-yet-ready-for-choice-of-fund-1234/"
   ]
 }
