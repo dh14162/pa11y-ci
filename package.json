@@ -6,6 +6,6 @@
     "axe-cli": "^3.1.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/axe --stdout https://www.aviva.co.uk/insurance/motor/car-insurance/, https://www.aviva.com.sg/en/insurance/car/, https://www.aviva.pl/aktualnosci/ubezpieczenia-online-moja-aviva/ --timeout=120 --load-delay=2000 -b c -q --tags wcag21aa"
+    "test": "./node_modules/.bin/axe --stdout https://www.aviva.co.uk/insurance/motor/car-insurance/, https://www.aviva.com.sg/en/insurance/car/, https://www.aviva.pl/aktualnosci/ubezpieczenia-online-moja-aviva/ --timeout=120 --load-delay=2000 -q --tags wcag21aa"
   }
 }
