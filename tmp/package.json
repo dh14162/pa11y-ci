@@ -1,0 +1,12 @@
+{
+  "name": "duc-pa11y-ci",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "pa11y-ci": "^1.3.0"
+  },
+  "scripts": {
+    "test-pa11y": "./node_modules/.bin/pa11y-ci",
+    "test-aviva": "./node_modules/.bin/pa11y-ci --sitemap https://www.aviva.com/sitemap.xml"
+  }
+}
