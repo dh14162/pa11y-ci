@@ -6,6 +6,10 @@ addons:
 node_js:
   - "8"
 
+cache:
+  directories:
+    - "node_modules"
+
 install: npm install
 
 # Build script
