@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
-    "axe-cli": "^1.3.1"
+    "axe-cli": "^1.3.0"
   },
   "scripts": {
-    "test-uk": "./node_modules/.bin/axe-cli https://www.aviva.co.uk/insurance/motor/car-insurance/ --timeout=120 --save uk.json  --tags wcag21aa",
-    "test-sg": "./node_modules/.bin/axe-cli https://www.aviva.com.sg/en/insurance/car/ --timeout=120 --save sg.json  --tags wcag21aa",
-    "test-pl": "./node_modules/.bin/axe-cli https://www.aviva.pl/aktualnosci/ubezpieczenia-online-moja-aviva/ --timeout=120 --save pl.json  --tags wcag21aa"
+    "test-uk": "./node_modules/.bin/axe https://www.aviva.co.uk/insurance/motor/car-insurance/ --timeout=120 --save uk.json  --tags wcag21aa",
+    "test-sg": "./node_modules/.bin/axe https://www.aviva.com.sg/en/insurance/car/ --timeout=120 --save sg.json  --tags wcag21aa",
+    "test-pl": "./node_modules/.bin/axe https://www.aviva.pl/aktualnosci/ubezpieczenia-online-moja-aviva/ --timeout=120 --save pl.json  --tags wcag21aa"
   }
 }

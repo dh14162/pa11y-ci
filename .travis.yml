@@ -12,5 +12,3 @@ install: npm install
 # Build script
 script:
   - npm run test-uk
-  - npm run test-sg
-  - npm run test-pl
